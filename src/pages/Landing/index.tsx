@@ -211,8 +211,8 @@ export default function Landing() {
         <PrimarySectionLeft>
           <SpaceHeader>Space Dollar</SpaceHeader>
           <SpaceSubHeader>
-            An algorithmic stablecoin across multiple blockchains built reserve
-            on-chain currency of Decentralized finance.
+            The first multi-chain algorithmic stablecoin on Binance Smart Chain
+            & Ethereum.
           </SpaceSubHeader>
           <Box marginTop={24} />
           <MenuButton href="https://eth.spacedollar.finance/" dark>
@@ -247,10 +247,10 @@ export default function Landing() {
           <LogoImage src={LogoSolid} />
           <h2>Space Dollar (SPAD) is an algorithmic elastic stablecoin</h2>
           <p>
-            SPAD uses an algorithmic approach to maintaining price stability
-            around a 1 USDC target. This approach without any collactorized but
-            relies on a tuned incentivization mechanism to reward actors who
-            promote stability within the protocol.
+            SPAD uses an algorithmic approach for maintaining price stability
+            around a 1 USDC target. This approach is without any
+            collateralization but relies on a tuned incentivization mechanism of
+            rewarding actors who promote stability to the protocol.
           </p>
         </ConceptSectionLeft>
         <LogoImageDecor src={LogoSolid} />
@@ -261,21 +261,21 @@ export default function Landing() {
 
         <h2>How does the protocol work?</h2>
         <p>
-          The Space Dollar protocol uses an algorithmic and incentivization to
+          The Space Dollar protocol uses an algorithm and incentivization *for*
           maintaining price stability. This means the number of SPAD tokens in
-          circulation supply can grow or shrink based on price:
+          circulation supply can be increased or decreased based on token price:
         </p>
 
         <CodeBlock>
           <ul>
             <li>
               <code>
-                When Price {"> $1"} supply <Red>Grow</Red> with algorithmic
+                When Price {"> $1"} supply <Red>increase</Red> with algorithmic
               </code>
             </li>
             <li>
               <code>
-                When Price {"< $1"} supply <Blue>Shrink</Blue> with
+                When Price {"< $1"} supply <Blue>decrease</Blue> with
                 incentivization
               </code>
             </li>
@@ -283,13 +283,14 @@ export default function Landing() {
         </CodeBlock>
 
         <p>
-          These supply will <Red>Grow</Red> when SPAD demand is growing. So the
-          price will exceed $1. The protocol will adjust supply to stabilize
-          price $1 target by growing the supply and distributed to SPAD, LP
-          staker or Discount Coupon Redeemer. Then when SPAD demand is
-          shrinking. The price will below $1. Supply need to <Blue>Shrink</Blue>
-          . The protocol will intensivization to burned SPAD with Discount
-          Coupon offering. The Coupon can redeem when price exceed $1 again.
+          supply will increase when SPAD demand is growing therefore the price
+          will exceed $1. The protocol will adjust supply to stabilize price
+          around $1 target by <Red>increasing</Red> the supply and distributing
+          SPAD, LP staker or using Discount Coupon Redeemer.When SPAD demand is 
+          <Blue> decreasing</Blue>. The price will be below $1 and supply need to
+          be decreased. The protocol will use intensivization mechanism to
+          burned SPAD with Discount Coupon offering. Those coupons can be
+          redeemed when price exceed $1 again.
         </p>
 
         <Divider style={{ marginTop: 60 }} />
@@ -298,7 +299,10 @@ export default function Landing() {
           <MenuButtonRow href="https://eth.spacedollar.finance/" dark>
             Launch App <FaRocket color="#e5e5e5" style={{ marginLeft: 16 }} />
           </MenuButtonRow>
-          <MenuButtonRow href="https://medium.com/space-dollar/" target="_blank">
+          <MenuButtonRow
+            href="https://medium.com/space-dollar/"
+            target="_blank"
+          >
             Learn More <FaRegLightbulb style={{ marginLeft: 16 }} />
           </MenuButtonRow>
         </AutoRow>
