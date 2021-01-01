@@ -261,7 +261,7 @@ export default function Landing() {
 
         <h2>How does the protocol work?</h2>
         <p>
-          The Space Dollar protocol uses an algorithm and incentivization *for*
+          The Space Dollar protocol uses an algorithm and incentivization for
           maintaining price stability. This means the number of SPAD tokens in
           circulation supply can be increased or decreased based on token price:
         </p>
